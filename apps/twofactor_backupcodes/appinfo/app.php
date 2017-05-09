@@ -21,5 +21,5 @@
  */
 
 // @codeCoverageIgnoreStart
-OC_App::registerPersonal('twofactor_backupcodes', 'settings/personal');
+\OCP\App::registerPersonal('twofactor_backupcodes', 'settings/personal');
 // @codeCoverageIgnoreEnd
