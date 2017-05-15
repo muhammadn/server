@@ -1,3 +1,7 @@
+.warning {
+	margin-top: 15px;
+}
+
 .challenge-form {
 	margin: 16px auto 1px !important;
 }
@@ -5,11 +9,13 @@
 .challenge {
 	margin-top: 0 !important;
 	margin-left: 0 !important;
+	box-sizing: border-box !important;
+	width: 100% !important;
 }
 
 .confirm-inline {
 	position: absolute;
-	right: 10px;
+	right: 0;
 	top: 0;
 	margin: 0 !important;
 	padding-right: 25px !important;
@@ -22,4 +28,8 @@
 	font-family: monospace;
 	letter-spacing: 0.02em;
 	font-size: 1.2em;
+}
+
+.two-factor-link {
+	width: 100%;
 }
